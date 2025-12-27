@@ -3,16 +3,16 @@ import sqlite3 as sql
 connection = sql.connect("../database.db")
 cursor = connection.cursor()
 
-# insert_query = '''
-#                INSERT INTO Students (name, age, email)
-#                VALUES (?, ?, ?); \
-#                '''
-# student_data = ('Jane Doe', 23, 'jane@example.com')
-#
-# cursor.execute(insert_query, student_data)
-#
-# # Commit the changes automatically
-# connection.commit()
+insert_query = '''
+               INSERT INTO Students (name, age, email)
+               VALUES (?, ?, ?); 
+               '''
+student_data = ('Jane Doe', 23, 'jane@example.com')
+
+cursor.execute(insert_query, student_data)
+
+# Commit the changes automatically
+connection.commit()
 
 # Write the SQL command to select all records from the Students table
 # select_query = "SELECT * FROM Students;"
