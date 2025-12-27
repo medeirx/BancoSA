@@ -67,7 +67,7 @@ As funcionalidades abaixo representam o **roadmap do projeto** e serão implemen
 ---
 
 ## 🛠️ Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=python,supabase&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,sqlite&theme=dark)](https://skillicons.dev)
 
 ---
 
